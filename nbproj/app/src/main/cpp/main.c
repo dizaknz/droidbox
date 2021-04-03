@@ -8,7 +8,7 @@ static void handle_cmd(struct android_app* app, int32_t cmd) {
 
 static int32_t handle_input(struct android_app* app, AInputEvent* event) {
     // STUB
-    return 0
+    return 0;
 }
 
 void android_main(struct android_app* app) {
