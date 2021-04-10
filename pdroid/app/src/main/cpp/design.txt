@@ -1,0 +1,23 @@
+- LevelBuilder
+  - generates Level
+  - pass in level difficulty - level ID
+  - containers: same velocity, 90 degree reflection
+  - obstacles: absorbs velocity, 45 degree reflection
+  - black holes: random velocity and direction
+
+- Level
+  - holds blocks
+  - shaders 
+
+- Engine
+  - level
+  - holds movement/state
+  - draw  
+
+- Display
+  - init
+  - close
+
+- Shader
+  - load
+  - cleanup
